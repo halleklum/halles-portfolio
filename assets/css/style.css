@@ -149,8 +149,8 @@ li {
 
 
 .tab-headers{
-    margin-left: 150px;
-    padding: 10px;
+    margin-left: 12px;
+    padding: 5px;
     clear: both;
     float: left;
     width: 20%;
@@ -161,7 +161,7 @@ li {
 #about-me-aside {
     font-size: 40px;
     float: right
-    padding 60px;
+    padding 40px;
     padding-right: 20px;
 }
 
