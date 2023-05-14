@@ -288,15 +288,9 @@ img:hover {
     border-bottom: 3px solid black;
 }
 
-@media screen and (max-width: 992px) {
-    .first-row {
-      width: 50%;
-      flex-wrap: wrap;
-    }
-  }
 
   @media screen and (max-width: 700px) {
-    .second-row {
+    .header {
       width: 50%;
       flex-wrap: wrap;
     }
@@ -309,5 +303,3 @@ img:hover {
       flex-wrap: wrap;
     }
   }
-
-  
