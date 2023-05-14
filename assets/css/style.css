@@ -71,7 +71,7 @@ p {
     height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(/challenges/halles-portfolio/assets/images/halle-header.png);
+    background-image: url(../images/halle-header.png);
     background-size: cover;
     background-position: center;
 }
@@ -149,7 +149,7 @@ li {
 
 
 .tab-headers{
-    margin-left: 200px;
+    margin-left: 150px;
     padding: 10px;
     clear: both;
     float: left;
@@ -290,7 +290,7 @@ img:hover {
 
 
   @media screen and (max-width: 700px) {
-    .header {
+    .main-content {
       width: 50%;
       flex-wrap: wrap;
     }
