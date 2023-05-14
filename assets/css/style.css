@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #dfcec9;
+    color: black;
+    overflow: hidden;
+}
+
+
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+h1 {
+    display: inline-block;
+    content: solid black;
+    box-shadow:2px 2px 6px #888;
+    background-color: whitesmoke; 
+    box-sizing: content-box;
+    width: 25%;
+    text-align:center;
+    display:inline-block;
+    margin:10px;
+  }
+
+
+.header nav {
+    padding-top: 50px;
+    margin-right: 50px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header nav ul li{
+    border-bottom: 3px solid black;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(/challenges/halles-portfolio/assets/images/halle-header.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#my-portfolio {
+    content: solid black;
+    background-color: whitesmoke; 
+    box-sizing: content-box;
+    width: 200px;
+    height: 48px;
+    text-align:center;
+    margin-top: 400px;
+    margin-left: 1500px;
+  }
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+
+.main-content {
+    width: 60%;
+    height: 100px;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+
+    .about-me-content {
+        display: block;
+        margin-block-start: 1.5em;
+        margin-block-end: 1em;
+        margin-inline-end: 10px;
+    }
+
+    p {
+        font-size: 20px;
+        padding-left: 30px;
+        letter-spacing: .75px;
+        border-left: 5px solid black;
+    }
+
+    #break-paragraph {
+        padding:10px;
+        border-left: 5px solid black;
+    }
+
+#surf-report {
+    height: 500px;
+    width: 25%;
+    margin-bottom: 25px;
+    padding-left: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.tab-headers{
+    margin-left: 200px;
+    padding: 10px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align:right
+    
+}
+#about-me-aside {
+    font-size: 40px;
+    float: right
+    padding 60px;
+    padding-right: 20px;
+}
+
+#break-1 {
+    padding: 75px;
+}
+
+#work-aside {
+    font-size: 40px;
+    float: right
+    padding 50px;
+    padding-right: 20px;
+}
+
+#break-2 {
+    padding: 540px;
+}
+
+#contact-me-aside {
+    font-size: 40px;
+    float: right
+    padding 50px;
+    padding-right: 20px;
+}
+
+#work-grid {
+    border-left: 5px solid black;
+    padding-left: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.text-block {
+  position: absolute;
+  text-align:left;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.shell {
+    height: 500px;
+    border: 5px solid black;
+}
+
+
+.surf-report-image {
+    height: 40px;
+    width: 40px;
+    background-size: 100px;
+    background-position: left;
+}
+
+.fountain {
+    height: 300px;
+    width: 515px;
+    border: 5px solid black;
+}
+
+.lily {
+    height: 300px;
+    width: 515px;
+    border: 5px solid black;
+    display: inline-block;
+}
+
+.pads {
+    height: 300px;
+    width: 515px;
+    border: 5px solid black;
+}
+
+.sunset {
+    height: 300px;
+    width: 515px;
+    border: 5px solid black;
+    display:inline-flexbox;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sunset hover {
+    background-color: rgb(34, 0, 255);
+  }
+
+  img {
+      filter: opacity(50%);
+    }
+
+img:hover {
+    filter: none;
+ }
+
+ .contact-me-content {
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid black;
+    padding-left: 20px;
+
+}
+
+#break-3 {
+    padding: 20px;
+}
+
+.info {
+    font-size: 30px;
+    border-bottom: 3px solid black;
+}
+
+@media screen and (max-width: 992px) {
+    .first-row {
+      width: 50%;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .second-row {
+      width: 50%;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .work-grid {
+      float: none;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
+  
