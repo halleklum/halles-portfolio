@@ -289,17 +289,30 @@ img:hover {
 }
 
 
-  @media screen and (max-width: 700px) {
-    .main-content {
+  @media screen and (max-width: 992px) {
+    .first-row {
       width: 50%;
       flex-wrap: wrap;
     }
   }
 
   @media screen and (max-width: 992px) {
-    .work-grid {
-      float: none;
-      width: 100%;
+    .second-row {
+      width: 50%;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .header nav ul {
+      width: 50%;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .contact-me-content {
+      width: 50%;
       flex-wrap: wrap;
     }
   }
